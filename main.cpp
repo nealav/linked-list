@@ -1,20 +1,6 @@
-/*
-Neal Viswanath
-CSE 240, MTWTF
-Professor Selgrad
-
-Assignment#3:
-A templated Node-class is used to build a templated LinkedList interface. Testing of the interface is done through a simple console input
-Josepheus problem that outputs the survivor until the user quits.
-*/
-
-
 #include <iostream>
 #include <cstdlib>
 #include <stdio.h>
-
-
-
 
 using namespace std;
 
@@ -615,17 +601,6 @@ void Josepheus(int persons, int nth_person) //function call for the Josepheus pr
 
     Link->~LinkedList(); //empty's the list
 }
-
-
-
-
-
-
-
-
-
-
-
 
 int main(int argc, char *argv[])
 {
